@@ -168,12 +168,12 @@ html{
     font-size: 16px;
     font-family: 'Nunito', sans-serif;
     padding-bottom: 30px;
-    margin-right: 37px;
 }
 
 .about_data span{
     color: #DC965A;
 }
+
 
 
 .cv_button {
@@ -195,7 +195,7 @@ text-decoration: none;
 }
 
 .my_contact_info{
-    /* margin-left: 75px; */
+    padding-left: 76px;
     
 }
 
@@ -205,7 +205,24 @@ span.info{
     font-weight: 600;
     color: #fff;
     padding-right: 15px;
+    
 }
+
+span.age{
+    padding-right: 72px;
+}
+span.usa{
+    padding-right: 25px;
+}
+
+span.new{
+    padding-right: 40px;
+}
+
+span.birth{
+    padding-right: 40px;
+}
+
 
 span.data{
     font-size: 13px;
@@ -545,7 +562,7 @@ span.data{
 
 .skill_bar::before{
     content:"";
-    width: 92%;
+    width: 85%;
     height: 8px;
     background-color: #DC965A;
     position: absolute;
@@ -554,7 +571,7 @@ span.data{
 }
 
 .skill_bar::after{
-    content: "92%";
+    content: "85%";
     position: absolute;
     top: -22px;
     right: 21px;
@@ -564,6 +581,158 @@ span.data{
     font-weight: 700;
     font-family: 'Nunito'sans-serif;
 }
+
+
+.skill_datac{
+    padding-bottom: 24px;
+}
+
+.skill_datac h3{
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'Nunito', sans-serif;
+}
+.skill_barc{
+    width: 100%;
+    height: 8px;
+    position: relative;
+    margin-top: 20px;
+}
+
+.project-icon i{
+    font-size: 60px;
+    color: #ffffff;
+}
+
+.skill_barc::before{
+    content:"";
+    width: 80%;
+    height: 8px;
+    background-color: #DC965A;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.skill_barc::after{
+    content: "80%";
+    position: absolute;
+    top: -22px;
+    right: 21px;
+    width: 20px;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 700;
+    font-family: 'Nunito'sans-serif;
+}
+
+.skill_barcc{
+    width: 100%;
+    height: 8px;
+    position: relative;
+    margin-top: 20px;
+}
+
+.project-icon i{
+    font-size: 60px;
+    color: #ffffff;
+}
+
+.skill_barcc::before{
+    content:"";
+    width: 75%;
+    height: 8px;
+    background-color: #DC965A;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.skill_barcc::after{
+    content: "75%";
+    position: absolute;
+    top: -22px;
+    right: 21px;
+    width: 20px;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 700;
+    font-family: 'Nunito'sans-serif;
+}
+
+.skill_barccc{
+    width: 100%;
+    height: 8px;
+    position: relative;
+    margin-top: 20px;
+}
+
+.project-icon i{
+    font-size: 60px;
+    color: #ffffff;
+}
+
+.skill_barccc::before{
+    content:"";
+    width: 70%;
+    height: 8px;
+    background-color: #DC965A;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.skill_barccc::after{
+    content: "70%";
+    position: absolute;
+    top: -22px;
+    right: 21px;
+    width: 20px;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 700;
+    font-family: 'Nunito'sans-serif;
+}
+
+
+.skill_barcv{
+    width: 100%;
+    height: 8px;
+    position: relative;
+    margin-top: 20px;
+}
+
+.project-icon i{
+    font-size: 60px;
+    color: #ffffff;
+}
+
+.skill_barcv::before{
+    content:"";
+    width: 67%;
+    height: 8px;
+    background-color: #DC965A;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.skill_barcv::after{
+    content: "67%";
+    position: absolute;
+    top: -22px;
+    right: 21px;
+    width: 20px;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 700;
+    font-family: 'Nunito'sans-serif;
+}
+
+
+
+
 
 .contact_area{
     background: linear-gradient(90deg, rgba(26,26,26,1) 40%, rgba(19,20,22,1) 40%);
@@ -584,7 +753,7 @@ input{
     margin-bottom: 25px;
     background-color: #131416;
     border: 2px solid #DC965A ;
-    color: #ed0e0e;
+    color: #ffffff;
     font-family: 'Nunito'sans-serif;
     font-size: 15px; 
     
@@ -667,7 +836,6 @@ input:focus{
 
 .contact_data{
     margin-bottom: 80px;
-    /* position: relative; */
     padding-left: 14%;
 }
 .contact_details{
@@ -701,7 +869,7 @@ input:focus{
     width: 60px;
     height: 60px;
     border-radius: 30px;
-    background-color: red;
+    background-color: #DC965A;
     font-size: 28px;
     text-align: center;
     padding: 2%;
@@ -738,3 +906,11 @@ input:focus{
         margin-left: 0px;
     }
 }
+
+.icon_project i{
+    font-size: 22px;
+    color: #ffffff;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
